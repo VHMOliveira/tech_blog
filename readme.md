@@ -1,4 +1,4 @@
-# Projeto 2 curso udemy 20 projetos
+# Projeto 2 curso udemy 20 projetos.
 
 Projetos:<br/>
 
