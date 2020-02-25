@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <!--id é recomendado utilizar uma única vez, caso tenha interesse em fazer mais é recomendado usar classe -->
+    <head>
+        <title>Cor r Imagem de fundo</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+
+            .fundo{
+                background-color: red url('imagens/amazon.png') no-repeat;
+            }
+            
+            body{
+                background-image: url('imagens/amazon.png');
+                background-repeat: no-repeat;
+                /*
+                Aqui a imagem não acompanha o texto e fica fixa no plano de fundo
+                background-attachment:fixed;
+                s
+                Aqui a imagem utiliza o scroll e acompanha o texto 
+                background-attachment:scroll;
+                */
+                background-attachment:scroll;
+                /*
+                define a posição da imagem na página, sendo o primeiro valor na horizontal e o segundo na vertical
+                */
+                background-position: left center;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <h1 class="fundo">Conteúdo de título 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis, risus quis convallis laoreet, sem massa eleifend ipsum, et tincidunt quam nisl nec diam. Quisque non lobortis erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra turpis at mauris fermentum molestie. Quisque sit amet lorem lorem. Maecenas quis metus vestibulum, fermentum elit quis, consequat est. Nam viverra, diam vel gravida congue, nulla nulla efficitur tellus, vitae efficitur lorem dolor sed sem. Nulla facilisi. Pellentesque sodales iaculis dignissim. Suspendisse in placerat nulla. Curabitur et commodo mi, vitae lacinia turpis.
+
+            Integer iaculis lacinia porta. Nullam vitae ornare augue. Nulla sed hendrerit massa. Mauris eget leo nulla. Proin vitae nisi quis sem vehicula tincidunt. Nunc interdum suscipit tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere placerat libero et pharetra.
+            
+            Vivamus molestie, eros quis molestie pulvinar, ipsum diam feugiat odio, eu convallis dolor lectus in velit. Pellentesque quis eros sollicitudin, dictum nibh quis, feugiat lectus. Ut aliquam imperdiet magna dictum malesuada. Nullam id iaculis eros. Aliquam erat volutpat. Quisque pharetra mauris a nisi gravida, sed pellentesque mauris sollicitudin. Morbi facilisis eget libero ac efficitur. Morbi enim tellus, posuere porta nibh at, rhoncus accumsan mi.
+            
+            Quisque eget leo ut risus blandit fringilla ac sit amet leo. Proin et faucibus velit. Pellentesque ac nibh at erat viverra condimentum a ut erat. Aenean semper euismod lectus ut eleifend. Nullam bibendum ex id leo auctor rutrum. Sed nibh sem, varius feugiat tincidunt non, semper at orci. Fusce rhoncus erat eu risus finibus condimentum.
+            
+            Cras egestas vulputate condimentum. Aliquam luctus odio et felis ultrices egestas. Morbi non tellus fermentum diam finibus semper et eget neque. Donec vehicula ipsum vitae elit ultrices, nec porta neque maximus. Vivamus nec pretium dolor, ultricies aliquam nisi. Mauris et dolor sed lacus porta bibendum. Curabitur bibendum tortor massa, sed imperdiet felis rhoncus sollicitudin. Vivamus a lectus et diam porta tincidunt..</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p>What is Lorem Ipsum?
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            
+            </p>
+
+    </body>
+
+</html>
